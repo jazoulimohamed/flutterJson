@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:tp1/screen/Acueil .dart';
 import 'package:tp1/screen/M.dart ';
 import 'package:tp1/screen/Operation.dart';
+import 'package:tp1/screen/JsonClass.dart';
 
 Future<void> afficherSecond(int s)async {
   for(var i=0; i<=s;i++){
@@ -12,7 +13,9 @@ Future<void> afficherSecond(int s)async {
 
 void main() {
   //runApp(s() ) ;
-  afficherSecond(12);
+  //afficherSecond(5);
+  runApp(js());
+
 }
 
 class s extends StatelessWidget {
